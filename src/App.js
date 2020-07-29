@@ -3,8 +3,8 @@ import {Message} from './Message'
 import './App.css'
 
 function App() {
-  let [count, setCount] = useState(1)
-  let [isMorning, setMorning] = useState(false)
+  var [count, setCount] = useState(1)
+  var [isMorning, setMorning] = useState(false)
 
   return (
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
